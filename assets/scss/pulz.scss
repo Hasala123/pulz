@@ -1,0 +1,62 @@
+/*!
+
+ =========================================================
+ * Paper Kit - v2.2.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/pulz-2
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+@import 'pulz/variables';
+@import 'pulz/mixins';
+
+// Plugins CSS
+@import "pulz/plugins/plugin-bootstrap-switch";
+@import "pulz/plugins/plugin-nouislider";
+@import "pulz/plugins/plugin-datepicker";
+
+// Core CSS
+@import "pulz/buttons";
+@import "pulz/inputs";
+@import "pulz/checkbox-radio";
+@import "pulz/progress-bars";
+@import "pulz/badges";
+@import "pulz/pagination";
+@import "pulz/typography";
+@import "pulz/misc";
+@import "pulz/labels";
+
+// components
+@import "pulz/nucleo-icons";
+@import "pulz/social-buttons";
+@import "pulz/tabs-navs";
+@import "pulz/navbars";
+@import "pulz/dropdown";
+@import "pulz/alerts";
+@import "pulz/images";
+@import "pulz/tooltips-and-popovers";
+@import "pulz/modal";
+@import "pulz/icons";
+@import "pulz/carousel";
+@import "pulz/footers";
+
+// Cards
+@import "pulz/cards";
+@import "pulz/cards/card-plain";
+@import "pulz/cards/card-register";
+@import "pulz/cards/card-profile";
+
+// example pages and sections
+@import "pulz/examples";
+@import "pulz/sections";
+
+
+@import "pulz/responsive";

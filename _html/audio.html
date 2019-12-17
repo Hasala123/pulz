@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+   <body>
+      <script language = "vbscript" type = "text/vbscript">
+         Dim obj_datadict   ' Create a variable.
+         Set obj_datadict = CreateObject("Scripting.Dictionary")
+         obj_datadict.Add "a", "Apple"   ' Add some keys and items.
+         obj_datadict.Add "b", "Bluetooth"
+         obj_datadict.Add "c", "C++"
+         a = obj_datadict.Keys
+         
+         msgbox a(0)
+         msgbox a(2)
+
+      </script>
+   </body>
+</html>
